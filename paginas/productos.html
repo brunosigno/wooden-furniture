@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>productos</title>
+    <!-- Vinculacion de Forma Externa - Hoja de estilos propia -->
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <!-- header se repetira en cada pagina -->
+  <header class="header">
+        
+    <img src="./imagenes/logo_white_background2.jpg" alt="Logo de wooden furniture" width="200" height="100">
+    
+    
+    <nav class="nav" id="abierto">
+        <ul class="nav__lista">
+            <li class="nav__item">
+                <a href="../index.html">Inicio</a>
+            </li>
+            <li class="nav__item">
+                <a href="productos.html">productos</a>
+            </li>
+            <li class="nav__item">
+                <a href="empresa.html">Empresa</a>
+            </li>
+            <li class="nav__item">
+                <a href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav__item">
+                <a href="faq.html">Preguntas Frecuentes</a>
+            </li>
+            <li class="nav__item nav__item--oculto">
+                <a href="#cerrado">❌</a>
+            </li>
+        </ul>
+    </nav>
+
+
+</header>
+
+</section>
+<div class="whatsapp">
+    <a href="#">
+        Whatsapp
+    </a>
+</div>
+
+<br>
+    <hr />
+    <br>
+    <h4>registrarse</h4>
+    <form>
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingrese el nombre" required>
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Ingrese su correo" required>
+        </div>
+
+        <div>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" placeholder="Ingrese su contraseña" required>
+        </div>
+        <div>
+            <label for="">Comentario:</label>
+            <textarea name="comentario" cols="30" rows="10" required></textarea>
+        </div>
+        <div>
+            <button>Enviar</button>
+        </div>
+
+    </form>
+
+     <!-- footer se repetira en cada pagina -->
+    <footer class="footer">
+        <div class="footer__flex">
+            <p>Derechos reservados - Wooden Furniture</p>
+            <img class="footer__logo" src="../imagenes/white_logo_transparent_background.png" alt="logo de wooden furniture" width="100" height="100">
+        </div>
+        <nav>
+            <ul class="footer__lista">
+                <li>
+                    <a href="https://www.instagram.com/signorelli.bruno/" target="_blank">Instagram</a>
+                </li>
+                <li>
+                    <a href="" target="_blank">Facebook</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/BrunoSignorell3/" target="_black">twitter</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <!-- Vinculacion de AOS - Efectos y Scrooll (CSS y JS)-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Inicializar AOS -->
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>
