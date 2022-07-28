@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,47 +9,77 @@
     <!-- Vinculacion de Forma Externa - Hoja de estilos propia -->
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
+
 <body>
     <!-- header se repetira en cada pagina -->
-  <header class="header">
-        
-    <img src="./imagenes/logo_white_background2.jpg" alt="Logo de wooden furniture" width="200" height="100">
-    
-    
-    <nav class="nav" id="abierto">
-        <ul class="nav__lista">
-            <li class="nav__item">
-                <a href="../index.html">Inicio</a>
-            </li>
-            <li class="nav__item">
-                <a href="productos.html">productos</a>
-            </li>
-            <li class="nav__item">
-                <a href="empresa.html">Empresa</a>
-            </li>
-            <li class="nav__item">
-                <a href="contacto.html">Contacto</a>
-            </li>
-            <li class="nav__item">
-                <a href="faq.html">Preguntas Frecuentes</a>
-            </li>
-            <li class="nav__item nav__item--oculto">
-                <a href="#cerrado">❌</a>
-            </li>
-        </ul>
-    </nav>
+    <header class="header">
+
+        <img class="header__logo" src="../imagenes/logo_white_background2.jpg" alt="Logo de wooden furniture"
+            width="200" height="100">
+
+        <a href="#abierto" class="header__icono">
+            <span class="jam jam-menu"></span>
+        </a>
 
 
-</header>
 
-</section>
-<div class="whatsapp">
-    <a href="#">
-        Whatsapp
-    </a>
-</div>
 
-<br>
+        <nav class="nav" id="abierto">
+            <ul class="nav__lista">
+                <li class="nav__item">
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li class="nav__item">
+                    <a href="productos.html">productos</a>
+                </li>
+                <li class="nav__item">
+                    <a href="empresa.html">Empresa</a>
+                </li>
+                <li class="nav__item">
+                    <a href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav__item">
+                    <a href="faq.html">Preguntas Frecuentes</a>
+                </li>
+                <li class="nav__item nav__item--oculto">
+                    <a href="#cerrado">❌</a>
+                </li>
+            </ul>
+        </nav>
+
+
+    </header>
+
+    <main>
+        <section class="contacto1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <form action="">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="name@example.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    </section>
+    <div class="whatsapp">
+        <a href="#">
+            Whatsapp
+        </a>
+    </div>
+
+    <br>
     <hr />
     <br>
     <h4>registrarse</h4>
@@ -77,11 +108,12 @@
 
     </form>
 
-     <!-- footer se repetira en cada pagina -->
+    <!-- footer se repetira en cada pagina -->
     <footer class="footer">
         <div class="footer__flex">
             <p>Derechos reservados - Wooden Furniture</p>
-            <img class="footer__logo" src="../imagenes/white_logo_transparent_background.png" alt="logo de wooden furniture" width="100" height="100">
+            <img class="footer__logo" src="../imagenes/white_logo_transparent_background.png"
+                alt="logo de wooden furniture" width="100" height="100">
         </div>
         <nav>
             <ul class="footer__lista">
@@ -105,4 +137,5 @@
     </script>
 
 </body>
+
 </html>
